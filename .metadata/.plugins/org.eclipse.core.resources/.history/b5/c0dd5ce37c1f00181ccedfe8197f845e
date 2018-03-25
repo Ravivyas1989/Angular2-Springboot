@@ -1,0 +1,16 @@
+import java.util.Hashtable;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Hashtable<Integer, Employee> table = new Hashtable<>();
+		Employee employee1= new Employee(1, "Ravi","Electrical");
+		Employee employee2= new Employee(1, "Suresh","Computer");
+		Employee employee3= new Employee(1, "John","Marketing");
+		table.put(employee1.getId(), employee1);
+		table.put(employee2.getId(), employee2);
+		table.put(employee3.getId(), employee3);
+
+	}
+
+}

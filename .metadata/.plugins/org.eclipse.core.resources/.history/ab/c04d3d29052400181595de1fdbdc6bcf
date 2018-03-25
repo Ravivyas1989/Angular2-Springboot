@@ -1,0 +1,30 @@
+import java.util.Arrays;
+import java.util.concurrent.ThreadLocalRandom;
+
+public class Test {
+
+	public static void main(String[] args) {
+		int arr[] = new int[9];
+		int arr1[] = {1,2,3,4,5,6,7,8,9,10};
+		for(int i=0;i<9;i++) {
+			//int j = (int) Math.random();
+			//int i =Math.random();
+			int randomNum = ThreadLocalRandom.current().nextInt(0, 9 + 1);
+			System.out.println("Random number is "+randomNum);
+			//if(j>=0 || j<10) {
+				System.out.println("j is "+randomNum+" i is  "+i);
+				arr[i]=arr1[randomNum];				
+			//}
+			
+		}
+		for(int k=0;k<arr.length;k++) {
+			System.out.println("arrr is "+arr[8]);			
+		}
+		
+		//int[] intArray = new int[]{ 1,2,3,4,5,6,7,8,9,10 }; 
+		//arr = new int[20]; 
+		//Auto-generated method stub
+
+	}
+
+}

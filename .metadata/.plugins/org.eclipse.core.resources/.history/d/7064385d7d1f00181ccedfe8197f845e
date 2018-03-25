@@ -1,0 +1,22 @@
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Map;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		Map<Integer, Employee> table = new HashMap();
+		Employee employee1= new Employee(1, "Ravi","Electrical");
+		Employee employee2= new Employee(1, "Suresh","Computer");
+		Employee employee3= new Employee(1, "John","Marketing");
+		table.put(employee1.getId(), employee1);
+		table.put(employee2.getId(), employee2);
+		table.put(employee3.getId(), employee3);
+		System.out.println("employee1 "+employee1);
+		System.out.println("employee2 "+employee2);
+		System.out.println("employee3 "+employee3);
+		System.out.println("table "+table.get(1));
+
+	}
+
+}

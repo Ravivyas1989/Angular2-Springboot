@@ -1,0 +1,33 @@
+
+public class Employee {
+	int id;
+	int name;
+	int dept;
+	
+	public Employee(int id, int name, int dept) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.dept = dept;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getName() {
+		return name;
+	}
+	public void setName(int name) {
+		this.name = name;
+	}
+	public int getDept() {
+		return dept;
+	}
+	public void setDept(int dept) {
+		this.dept = dept;
+	}
+	
+
+}
